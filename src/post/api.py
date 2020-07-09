@@ -25,7 +25,7 @@ def create_api():
     try:
         api.verify_credentials()
     except Exception as error:
-        logging.error('An error occured when creating API')
+        logging.error('An error occurred when creating API')
         raise error
 
     logging.info('API Created!')
